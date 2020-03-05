@@ -1,0 +1,962 @@
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+body {
+background-color:#dfe3e5;
+  counter-reset: section;
+  font-size: 13px;
+  line-height: 27px;
+  font-family: 'OpenSans', sans-serif;
+  margin: 0;
+  min-height: 100%;
+  color: #545454;
+  position: relative;
+}
+ul, ol, h1, h2, h3, h4, h5, h6 {
+  outline: none !important;
+  margin: 0;
+  padding: 0;
+  font-weight: 400px;
+}
+p{
+ font-size: 15px;
+ margin: 0;
+ padding: 0;
+}
+a{
+  font-size: 17px;
+  font-weight: 400;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  width: 100%;
+}
+iframe {
+  max-width: 100%;
+}
+a:hover, a:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+ul{
+  margin: 0px;
+  padding: 0px;
+}
+.btn{
+    float: right;
+    margin: 21px 20px 0 0;
+}
+.btn a{
+  
+color: white;
+  
+text-decoration: none;
+  
+padding: 9px 32px;
+  
+background: #2ecc71;
+  
+border-radius: 100px;
+}
+.btn a:hover{
+  
+color: #2ecc71;
+  
+text-decoration: none;
+  
+  
+background: transparent;
+  
+border-radius: 100px;
+border: 2px solid #2ecc71;
+}
+
+.more{
+
+}
+.more a{
+     color: #24a75a;
+    text-align: right;
+    text-decoration: none;
+    margin-right: 11px;
+}
+.more a i{
+      font-size: 11px;
+    margin: 0 4px 0 0;
+}
+
+.clear{
+  clear: both;
+}
+.title{padding: 10px;}
+.title h3{
+      font-size: 25px;
+    font-weight: 400;
+
+}
+.title  p{
+
+
+}
+/* Scroll to top
+---------------------------------- */
+.scrollToTop {
+    color: white;
+    position: fixed;
+    bottom: 40px;
+    right: 5px;
+    width: 44px;
+    height: 28px;
+    text-align: center;
+    z-index: 10;
+    background: #2ecc71;
+ 
+}
+/*==============================header-SECTION==========*/
+.header-container{
+
+float: right;
+
+margin: 19px 14px 17px 0;
+
+width: 55%;
+}
+.header-container .contact{
+
+float: left;
+
+width: 30%;
+}
+.header-container .contact i{margin: 10px;}
+.header-container .mail{
+    width: 29%;
+    float: left;
+    text-align: right;
+}
+.header-container a{font-weight: 600;text-decoration: none;font-size: 15px;color: #505d6b;}
+.header-container .mail i{
+
+margin: 10px;
+}
+.header-container .social_icon{
+
+width: 35%;
+
+float: right;
+}
+.header-container .social_icon ul{
+
+list-style: none;
+
+display: inline-block;
+}
+.header-container .social_icon ul li{
+  list-style: none;
+  display: inline-block;
+ color: black;
+ margin-left: 7px;
+ background: #fff;
+ border-radius: 50%;
+ text-align: center;
+ height: 30px;
+ width: 30px;
+ line-height: 30px;}
+.header-container .social_icon ul li a{
+   color: black;
+   font-size: 15px;
+}
+.header-container .social_icon ul li a i{
+
+}
+/*---------------------------------------------------------NAV START*/
+.nav{
+
+background: #2c3e50;
+
+color: white;
+
+margin: 0 95px;
+}
+.resp-nav .icon {
+  display: none;
+}
+.nav .logo{
+
+float: left;
+
+width: 11%;
+
+margin-right: 86px;
+}
+.nav .logo img{
+  
+background: white;
+  
+padding: 12px;
+  
+width: 100%;
+}
+
+.nav .nav_item{
+
+    list-style: none;
+    width: 59%;
+    float: left;
+    margin-left: 100px;
+}
+.topnav {
+overflow: hidden;
+    height: auto;
+    transition: 0.5s;
+}
+
+.topnav a {
+  color: white;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 21px 22px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+
+}
+
+.topnav a.active {
+color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+
+.slider{
+
+}
+/*==============================slider-SECTION==========*/
+.slider .slider-img{
+
+position: relative;
+}
+.slider .slider-img:before{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  content: '';
+  background-color: rgba(0,0,0,.6);
+}
+
+.slider .slider-img img{
+
+}
+.resp-logo{
+  display: none;
+}
+.resp-logo .btn{
+  display: block;
+  margin: 0;
+}
+.slider .comments{
+  
+position: absolute;
+  
+top: 28%;
+  
+left: 7%;
+  
+right: 7%;
+  
+color: white;
+}
+.slider .comment1{
+
+ float: left;
+ width: 73%;
+ line-height: 68px;
+}
+.slider .comment1 h2{
+   font-family: 'Nirmala UI';
+ 
+ font-weight: 700;
+  font-size: 50px;
+}
+.slider .comment1 h2 span{
+color: #2ecc71;
+
+}
+.slider .comment2{width: 25%;float: right;}
+.slider .btn{
+      padding: 0;
+      width: 100%;
+      margin: 24px 1px 0px 0;
+}
+/* --------------------------------------slider complete*/
+/*==============================description-SECTION==========*/
+.description{
+    margin: -100px 80px 0 80px;
+    position: relative;
+}
+.description .contact{
+
+width: 33%;
+
+float: left;
+}
+.contact-img{
+
+  }
+  .contact-img img{
+
+  }
+
+  .contact-img .contact-img-comment{
+ background-color: #fff;
+ padding: 13px 29px;
+ }
+  .contact-img .contact-img-comment .title{
+
+        padding: 10px;
+    margin-left: 16px;
+  }
+    .contact-img .contact-img-comment .title h3{
+color: #222;
+  }
+
+  .contact .Overview {
+
+  }
+  .contact .Overview .title{
+
+background: #29a55b;
+
+color: #fff;
+
+padding: 23px;
+}
+ .contact .Overview .title h3  {
+
+}
+.contact .Overview .title h3 p{
+
+ }
+  .contact .Overview_list {
+
+background: #2ecc71;
+
+}
+ .contact .Overview_list ul{
+      padding: 12px 0 27px 14px;
+      list-style: circle;
+      color: #fff;
+      margin: 0;
+ }
+ .contact .Overview_list ul li{
+
+margin-bottom: 11px;
+
+list-style: none;
+
+font-size: 17px;
+}
+ .contact .Overview_list ul li i{
+
+padding: 6px;
+}
+
+   /*==============================================comment section*/
+ .comment-sec{
+
+ }
+ .comment-sec .title{
+    margin-left: 16px;
+ }
+ .comment-sec .title h3{
+padding: 10px;
+color: #222;
+ }
+ .comment-sec .Comments{
+ width: 80%;
+ padding: 0 37px;
+ }
+  .comment-sec .Comments p{
+     margin-left: 30px;
+}
+
+.comment-sec .Comments .Comments_warp i {font-size: 20px;width: 10%;float: left;}
+
+.Comments .Commentor{
+    margin: 22px 0;
+}
+.Comments .comment_img{
+
+width: 20%;
+
+float: left;
+
+margin-left: 11px;
+}
+.Comments .comment_img img{
+
+border-radius: 50%;
+}
+.Comments .comment_content{
+
+width: 73%;
+
+float: right;
+}
+.Comments .comment_content  h3{
+
+}
+.Comments .comment_content  p{
+ 
+margin: 0px;
+}
+/*COMMENT slide nav*/
+.Comments .owl-nav{
+    position: absolute;
+    right: 2%;
+    bottom: -18%;
+}
+.Comments .owl-nav > div{
+    color: #000;
+    display: inline-block;
+    height: 35px;
+    margin-left: 6px;
+    text-align: center;
+    top: 0;
+    width: 35px;
+    position: static;
+    background-color: #2ecc71;
+    line-height: 40px;
+    vertical-align: middle;
+}
+.Comments .owl-nav .owl-prev{
+
+}
+.Comments .owl-nav > div > i{
+
+font-size: 20px;
+}
+.Comments .owl-nav .disabled{
+  
+}
+/*comment end*/
+
+/*==============================welcome-SECTION==========*/
+
+.welcome-section{
+ width: 34%;
+  float: left;  
+}
+.description .welcome{color: #fff;background-image: url(../img/back.jpg);
+ 
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  background-position: center top;
+  position: relative;
+}
+.description .welcome::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #3d67a9;
+    opacity: .8;
+    content: "";
+    
+}
+    .welcome .title{
+
+text-align: center;
+
+
+padding: 21px;
+}
+  .welcome .title h3{
+    font-size: 34px;
+    margin-bottom: 30px;
+    font-weight: 700;
+  }
+
+  .welcome .title p{font-size: 30px;line-height: 43px;}
+  .welcome-start 
+  {
+  z-index: 9;
+    position: relative;
+  }
+  .welcome .customer-form{
+
+width: 83%;
+
+margin: 0 0 0 25px;
+}
+  /* icon for contact form*/ 
+        .input-icons i {
+            position: absolute;
+            right: 11%;
+        } 
+          
+        .input-icons {
+            width: 100%;
+            margin-bottom: 15px;
+        } 
+          
+        .icon {
+            padding: 10px;
+            color: #666;
+            min-width: 50px;
+            text-align: right;
+        } 
+          
+        .input-field {
+            width: 100%;
+            padding: 10px;
+            text-align: left;
+        } 
+        .customer-form .btn {
+                margin: 36px 0;
+    float: none;
+    text-align: center;
+        }
+        
+.customer-form .btn a{
+  font-weight: 600;
+  text-align: center;
+}
+.customer-form .confirm{padding: 0 0 0px 0;}
+.customer-form .confirm p{
+        padding-bottom: 33px;
+}
+/*news sec*/
+.news_sec{
+    background: #fff;
+padding: 0 25px 50px;
+}
+.news_sec .title{
+  background-color: #fff;
+}
+.news_sec .title h3{
+color:#545454;
+}
+.news .news_warp{
+
+margin: 0px 0 0 0;
+}
+.news .news_warp .news_img{
+ 
+width: 36%;
+ 
+float: left;
+ 
+height: 95px;
+ 
+/* margin: 0 6px 0px 0; */
+}
+.news .news_warp .news_img img{
+
+height: 100%;
+
+object-fit: cover;
+
+margin-top: 7px;
+}
+.news .news_warp .news_content{
+
+width: 62%;
+    float: right;
+    margin-left: 4px;
+}
+.news .news_warp .news_content h3{}
+.news .news_warp .news_content p{
+  
+color: #555;
+  
+font-size: 15px;
+}
+.pt-news{padding-top: 20px;}
+.news .owl-nav{
+
+position: absolute;
+
+right: 2%;
+}
+.news .owl-nav > div{
+    border: 1px solid #fff;
+    color: #000;
+    display: inline-block;
+    height: 35px;
+    margin-left: 6px;
+    text-align: center;
+    top: 0;
+    width: 35px;
+    position: static;
+    background-color: #2ecc71;
+    line-height: 40px;
+    vertical-align: middle;
+}
+.news .owl-nav .owl-prev{
+
+}
+.news .owl-nav > div > i{
+
+font-size: 20px;
+}
+.news .owl-nav .disabled{
+  
+}
+
+/*---------------------------------------------galary starts*/
+.Gallary{
+    width: 33%;
+    float: right;
+}
+.Gallary .gallary-head{
+
+}
+.Gallary .gallary-head img{
+  
+}
+.Gallary .gallary-head .gallary-desc{
+
+margin: 15px 25px;
+}
+
+.Gallary .gallary-head h3{
+
+}
+.Gallary .gallary-head p{
+
+}
+.Gallary  .title_first{background-color: #000;padding: 20px 0;}
+.Gallary  .title_first h3{color: #fff;margin-left: 27px;}
+.gallary .gallary_img{
+      width: 412px;
+    height: 300px;
+}
+.gallary .gallary_img img{
+    width: 100%;
+}
+
+.Gallary .getintouch{
+  
+}
+
+/*Gallery slide nav*/
+.gallary .owl-nav{
+
+position: absolute;
+
+right: 6%;
+
+top: -16%;
+}
+.gallary .owl-nav > div{
+
+color: #000;
+
+display: inline-block;
+
+height: 35px;
+
+margin-left: 6px;
+
+text-align: center;
+
+top: 0;
+
+width: 35px;
+
+position: static;
+
+background-color: #2ecc71;
+
+line-height: 40px;
+
+vertical-align: middle;
+}
+.gallary .owl-nav .owl-prev{
+
+}
+.gallary .owl-nav > div > i{
+
+font-size: 20px;
+}
+
+.gallary .owl-nav .disabled{
+  
+}
+/*Gallery end*/
+/*====================================================getintouch section starts*/
+.getintouch{
+
+}
+.getintouch .title{margin: 8px 14px;}
+.getintouch .title h3{
+
+}
+.getintouch .getintouch_detail{
+    margin: 19px 26px;
+}
+.getintouch .getintouch_detail ul{
+
+list-style: none;
+}
+.getintouch .getintouch_detail ul li{
+  
+margin-top: 13px;
+}
+.getintouch .getintouch_detail ul li span{
+    margin-left: 53px;
+}
+.getintouch .getintouch_detail ul li i{
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    height: 29px;
+    margin-right: 18px;
+    width: 30px;
+    line-height: 30px;
+}
+ .turn{
+transform: rotate(90deg);
+}
+
+/*/////////////////////////////////////Address_section*/
+.Address_section{
+}
+.Address_section .suscribe_back{
+    color: #fff;
+    background-image: url(../img/sus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    background-position: center top;
+    position: relative;
+    float: left;
+    width: 50%;
+}
+.Address_section .suscribe_back::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: .7;
+    content: "";
+    
+}
+.suscribe{width: 64%;z-index: 9;position: relative;margin: 45px 0 100px 95px;}
+.suscribe .title{
+
+text-align: right;
+}
+.suscribe .title p{
+  
+font-size: 25px;
+  
+margin-bottom: 13px;
+}
+.suscribe .title h3{
+  
+font-size: 54px;
+  
+letter-spacing: 3px;
+  
+font-weight: 700;
+}
+.Address_section .map{
+ height: 309px;
+width: 50%;
+  
+float: right;
+}
+ /* icon for contact form*/ 
+        .input-btn a {
+            position: absolute;
+            border-radius: 0;
+            right: 7%;
+            margin: 8px 0;
+            padding: 1px  9px;
+            font-weight: 700;
+        } 
+          
+        .input-btn {
+            width: 100%;
+            margin: 27px 0;
+        } 
+          .input-btn p{
+            
+text-align: right;
+            
+margin: 25px 21px 0 0;
+          }
+        .icon {
+            padding: 10px;
+            color: #666;
+            min-width: 50px;
+            text-align: right;
+        } 
+          
+        .input-btn .input-field {
+            width: 77%;
+            text-align: left;
+            margin-left: 48px;
+            padding: 13px;
+        } 
+        .map{
+          height: 383px;
+        }
+/*=============================================================== footer section */
+.footer_section{
+
+background: #2c3e50;
+}
+.footer_desc{
+  margin: 0px 80px;
+  padding: 35px 0;
+  color: white;
+}
+.footer_section .border{
+  background-color: #4d5e6d;
+  padding: 1px;
+  margin: 0px 0;
+}
+
+.footer_section p{
+line-height: 18px;
+}
+
+.footer_section .title{
+
+color: #2ecc71;
+}
+
+.footer_section .About{
+
+width: 37%;
+
+float: left;
+
+padding: 2px;
+}
+.About .title{
+
+padding: 10px 0;
+}
+.About .title h3{
+  
+}
+.About .About_description{
+
+width: 64%;
+}
+.About .About_description p{
+  
+}
+.footer_section .Blog{
+
+width: 28%;
+
+padding: 10px;
+
+float: left;
+}
+.Blog .title{
+  padding: 10px 0px;
+}
+.Blog .title h3{
+  
+}
+.Blog_description{
+
+}
+.Blog_description .img_desc{
+
+width: 36%;
+
+float: left;
+
+margin-top: 10px;
+}
+.Blog_description .desc{
+
+width: 60%;
+
+float: right;
+}
+.Blog_description .desc h3{
+
+font-size: 18px;
+
+font-weight: 600;
+}
+.Blog_description .desc p{
+
+font-size: 17px;
+}
+.Blog_description .img_desc img{
+
+width: 100%;
+}
+.Blog_description .img_desc .desc{
+}
+ .topmarg{
+ 
+margin-top: 25px;
+}
+
+.Blog .title h3{
+  
+}
+
+.footer_section .Tweets{
+
+width: 22%;
+
+float: right;
+
+padding: 10px;
+}
+
+.Tweets .title{
+
+padding: 10px 0;
+}
+.Tweets .Tweets_description{
+}
+.Tweets .Tweets_description i{
+
+width: 10%;
+
+float: left;
+}
+.Tweets .Tweets_description p{
+
+width: 90%;
+
+float: right;
+}
+.Tweets .pt{
+
+margin-top: 15px;
+}
+/*================================copyright========================*/
+
+.footer_section .copyrt{
+ text-align: center;
+    color: white;
+    padding: 40px 0 50px 0;
+}
+
